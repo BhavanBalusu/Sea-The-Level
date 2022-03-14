@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f525a733.css",
+    "main.js": "/static/js/main.517fd88a.js",
+    "static/media/TempPredict.png": "/static/media/TempPredict.7ad9713e38eee587043d.png",
+    "static/media/Temperature.png": "/static/media/Temperature.0bc66e01676a7861b98a.png",
+    "static/media/carbonPredict.png": "/static/media/carbonPredict.a5563a1e79731964b2ba.png",
+    "static/media/Nigeria.png": "/static/media/Nigeria.841b657abd76ed825a59.png",
+    "static/media/USA.png": "/static/media/USA.db2fbecfc44ba4200bc4.png",
+    "static/media/carbon.png": "/static/media/carbon.dbf82434d11cd605d015.png",
+    "static/media/Germany.png": "/static/media/Germany.e9246524ced9c9d085e8.png",
+    "static/media/UK.png": "/static/media/UK.e4c4a7bf41ae785c87bd.png",
+    "static/media/Brazil.png": "/static/media/Brazil.fcbd8de2f12128b4b6ab.png",
+    "static/media/Japan.png": "/static/media/Japan.4f784f5bcc4deeba7cdd.png",
+    "static/media/Australia.png": "/static/media/Australia.84173d8412d324c73e7d.png",
+    "static/media/India.png": "/static/media/India.a6caae4aae45b325b3d9.png",
+    "static/media/China.png": "/static/media/China.d5e8780e2cf513bd97c7.png",
+    "static/media/Figure_1.png": "/static/media/Figure_1.7ca23e6bd3c9c08a00b5.png",
+    "static/media/carbonOffset.png": "/static/media/carbonOffset.d241feeaf5da3f853c66.png",
+    "static/media/predictTemp.csv": "/static/media/predictTemp.0fe13bdadf490182ce73.csv",
+    "static/media/predictCo2.csv": "/static/media/predictCo2.3681257aa31c1beb4bc4.csv",
+    "static/media/logo.png": "/static/media/logo.cad2c6216fa022f1fa64.png",
+    "index.html": "/index.html",
+    "main.f525a733.css.map": "/static/css/main.f525a733.css.map",
+    "main.517fd88a.js.map": "/static/js/main.517fd88a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f525a733.css",
+    "static/js/main.517fd88a.js"
+  ]
+}
