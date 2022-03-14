@@ -1,0 +1,105 @@
+.Main > h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.Main{
+    margin-top: 2em;
+    padding-top: 3rem;
+    padding-left: 4em;
+}
+
+.graph-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.textContainer{
+    width: 40vw;
+    margin-right: 2em;
+    padding-left: 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem darkgray;
+    margin-bottom: 3em;
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-left: 2rem;
+}
+
+.imageText {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-description{
+    font-size: 2rem;
+    font-weight: 200;
+    width: 100%;
+}
+
+img.graphImg {
+    max-width: 1000px; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+image-collage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.image-collage img {
+    width: 33%;
+}
+
+.graphimg3{
+    width: 500px;
+    height:300px;
+}
+span{
+    font-weight: lighter;
+    color: blue;
+
+}
+h3{
+    padding-left: 3em;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 1200px){
+    .graph-container{
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2em 2em 2em 2em;
+    }
+
+    .Main {
+        padding-left: 0em;
+    }
+
+    .textContainer{
+        width: 80vw;
+    }
+
+    .graphImg {
+        width: 400px;
+        align-self: center;
+    }
+
+    h3{
+        font-size: 2em;
+        padding-left: 3rem;
+    }
+    .image-collage{
+        flex-direction: column;
+    }
+
+    .image-collage img{
+        width: 80vw;
+    }
+
+    .textContainer {
+        margin-top: 1rem;
+    }
+
+}

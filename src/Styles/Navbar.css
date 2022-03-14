@@ -1,0 +1,186 @@
+*{
+    font-family: Helvetica;
+    overflow-x: hidden;
+  }
+  
+  
+  .nav{
+    top: 0;
+    left:0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    height:6em;
+    background-color: transparent;
+    position: fixed;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #446eeb;
+  }
+  
+  .nav.active{
+    transition: all 0.3s ease-in;
+    background-color:#daebf7;
+    box-shadow: 0.1vw 0.1vw 1vw lightgray;
+  }
+  
+  .navTitle{
+    background-color: transparent;
+    margin-top: 0.75em;
+    padding-left: 10vw;
+    padding-right: 30vw;
+    overflow-y: hidden;
+  }
+  
+  .navTitle img{
+    height: 60px;
+    width: 330px;
+    background-color: transparent;
+  }
+  
+  .navContainer{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+  } 
+  
+  .navButton{
+    padding-top: 1.5em;
+    padding-left: 1.5vw;
+    padding-right: 3vw;
+    font-size: 1.3em;
+    color: #d5d6e6;
+    background-color: transparent;
+    border-style: none;
+    text-decoration: none;
+  }
+
+  
+  .navButton:hover{
+    transition: all 0.2s ease-in-out;
+    color: white;
+  }
+  
+  
+  .navBar {
+    display: none;
+    position: relative;
+    background-color: gray;
+  }
+  
+  .navBar button {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .menuNav button{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+  }
+
+  svg{
+      background-color: transparent;
+  }
+  
+  .container1{
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+  }
+  
+  .container2{
+    padding-right: 1.3em;
+    background-color: #f2f2f2;
+    width:0;
+    padding-bottom: 60em;
+    overflow:hidden;
+  }
+  .menuNav {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: gray;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width:0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+    
+  }
+  
+  
+  .menuNav.showMenu {
+    display:flex;
+    flex-direction: column;
+    transition: all 0.5s ease-in;
+    width: 100%;
+  }
+  
+  .menuNav.closeMenu{
+    transition: all 0.5s ease-out;
+    width: 0%;
+  }
+  
+  .option-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+  }
+  
+  .navB{
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    margin-top: 0.1em;
+    padding-left: 1em;
+    justify-content: center;
+    overflow: hidden;
+    color: black;
+    background-color:#ebebeb;
+    text-decoration: none;
+  }
+  
+  .navB:hover{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    color: #648cd1;
+  }
+  
+  @media screen and (max-width: 400px){
+    .navTitle img{
+      padding-top: 0.2em;
+      width: 70vw;
+      height: 15vw;
+    }
+  }
+  @media screen and (max-width:1130px){
+    .navContainer{
+      display: none;
+      opacity: 0;
+    }
+  
+    .navTitle{
+      padding-left: 4vw;
+      padding-right: 15vw;
+    }
+  
+    .navBar{
+      display: block;
+    }
+  }
+  

@@ -1,0 +1,261 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:3000/sea
+Subject: React App
+Date: Sun, 13 Mar 2022 23:34:32 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----"
+
+
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----
+Content-Type: text/html
+Content-ID: <frame-3303297AE33BB9FA92FE26A38C6D6A32@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:3000/sea
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-faeee257-dca3-48cb-bee7-2100c1389659@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-793aa0c2-0d27-4aea=
+-8313-07888e579bbf@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-20f582ee-8c79-46de-a694-4e56bbf302de@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d1db5627-a409-4029-b4=
+20-f2969c271053@mhtml.blink" />
+   =20
+    <link rel=3D"icon" href=3D"http://localhost:3000/favicon.ico">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <meta name=3D"theme-color" content=3D"#000000">
+    <meta name=3D"description" content=3D"Web site created using create-rea=
+ct-app">
+    <link rel=3D"apple-touch-icon" href=3D"http://localhost:3000/logo192.pn=
+g">
+    <!--
+      manifest.json provides metadata used when your web app is installed o=
+n a
+      user's mobile device or desktop. See https://developers.google.com/we=
+b/fundamentals/web-app-manifest/
+    -->
+    <link rel=3D"manifest" href=3D"http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the bu=
+ild.
+      Only files inside the `public` folder can be referenced from the HTML=
+.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public UR=
+L.
+      Learn how to configure a non-root public URL by running `npm run buil=
+d`.
+    -->
+    <title>React App</title>
+  </head>
+  <body class=3D"vsc-initialized" data-new-gr-c-s-check-loaded=3D"14.1052.0=
+" data-gr-ext-installed=3D"">
+   =20
+    <div id=3D"root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+ =20
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-faeee257-dca3-48cb-bee7-2100c1389659@mhtml.blink
+
+@charset "utf-8";
+
+* { margin: 0px; scroll-behavior: smooth; }
+
+.home { color: black; font-family: sans-serif; display: flex; flex-directio=
+n: column; background-color: rgb(68, 110, 235); }
+
+.home-container { color: white; padding-top: 5em; justify-content: center; =
+display: flex; background-color: rgb(68, 110, 235); align-items: center; ov=
+erflow: hidden; height: 65vh; }
+
+img { width: 65vw; }
+
+.arrow { align-self: center; margin-top: 1.5em; padding-bottom: 3em; transf=
+orm: translateY(-2em); color: rgb(159, 195, 252); }
+
+.arrow button { border: none; color: rgb(159, 195, 252); background-color: =
+rgb(68, 110, 235); }
+
+.arrow button:hover { cursor: pointer; }
+
+.home-info { background-color: white; display: flex; align-items: center; j=
+ustify-content: center; flex-direction: column; padding-top: 5em; }
+
+.home-info h2 { padding-top: 1em; text-align: center; font-size: 5em; backg=
+round-color: white; padding-bottom: 0.5em; }
+
+.home-info p { background-color: white; text-align: left; font-size: 2.3em;=
+ padding: 0em 2em 2em; }
+
+.l { background-color: transparent; }
+
+.home-info button { background-color: rgb(68, 110, 235); border: none; widt=
+h: 15em; height: 5em; margin-top: 30px; margin-bottom: 20em; color: white; =
+border-radius: 3em; transition: background-color 0.2s cubic-bezier(0.215, 0=
+.61, 0.355, 1) 0s; font-size: 1em; }
+
+.home-info button:hover { cursor: pointer; border: 2px solid black; backgro=
+und-color: white; color: black; }
+
+.textBubble { width: 66vw; margin-right: 2em; margin-left: 2em; box-shadow:=
+ darkgray 0.75em 0.5em 3em; margin-bottom: 3em; }
+
+form { background-color: transparent; }
+
+@media (max-width: 1300px) {
+  img { width: 85vw; }
+  svg { width: 7em; height: 7em; }
+  .textBubble { font-size: 0.6em; }
+  .textBubble h2 { padding-top: 0.5em; }
+  .home-container { height: 76.5vh; }
+}
+
+@media (max-width: 600px) {
+  .textBubble { width: 80vw; }
+}
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-793aa0c2-0d27-4aea-8313-07888e579bbf@mhtml.blink
+
+@charset "utf-8";
+
+h1.header { margin-top: 12rem; margin-left: 5.5rem; padding: 6rem 0px 0px; =
+font-size: 5em; }
+
+a { text-decoration: none; color: rgb(213, 214, 230); }
+
+a:hover { transition: all 0.2s ease-in-out 0s; color: white; }
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-20f582ee-8c79-46de-a694-4e56bbf302de@mhtml.blink
+
+@charset "utf-8";
+
+* { font-family: Helvetica; overflow-x: hidden; }
+
+.nav { top: 0px; left: 0px; right: 0px; display: flex; width: 100%; height:=
+ 6em; position: fixed; flex-direction: row; overflow: hidden; background-co=
+lor: rgb(68, 110, 235); }
+
+.nav.active { transition: all 0.3s ease-in 0s; background-color: rgb(218, 2=
+35, 247); box-shadow: lightgray 0.1vw 0.1vw 1vw; }
+
+.navTitle { background-color: transparent; margin-top: 0.75em; padding-left=
+: 10vw; padding-right: 30vw; overflow-y: hidden; }
+
+.navTitle img { height: 60px; width: 330px; background-color: transparent; =
+}
+
+.navContainer { background-color: transparent; display: flex; flex-directio=
+n: row; }
+
+.navButton { padding-top: 1.5em; padding-left: 1.5vw; padding-right: 3vw; f=
+ont-size: 1.3em; color: rgb(213, 214, 230); background-color: transparent; =
+border-style: none; text-decoration: none; }
+
+.navButton:hover { transition: all 0.2s ease-in-out 0s; color: white; }
+
+.navBar { display: none; position: relative; background-color: gray; }
+
+.navBar button { position: fixed; right: 40px; top: 40px; z-index: 10; curs=
+or: pointer; background-color: transparent; border: none; }
+
+.menuNav button { position: relative; left: 100px; top: 10px; z-index: 10; =
+cursor: pointer; border: none; }
+
+svg { background-color: transparent; }
+
+.container1 { display: flex; flex-direction: row; overflow: hidden; }
+
+.container2 { padding-right: 1.3em; background-color: rgb(242, 242, 242); w=
+idth: 0px; padding-bottom: 60em; overflow: hidden; }
+
+.menuNav { display: flex; flex-direction: column; list-style: none; positio=
+n: fixed; top: 0px; background: gray; left: 0px; bottom: 0px; height: 100vh=
+; width: 0px; overflow: hidden; max-width: 290px; z-index: 9; }
+
+.menuNav.showMenu { display: flex; flex-direction: column; transition: all =
+0.5s ease-in 0s; width: 100%; }
+
+.menuNav.closeMenu { transition: all 0.5s ease-out 0s; width: 0%; }
+
+.option-container { background-color: white; display: flex; flex-direction:=
+ column; width: 100%; height: 100%; }
+
+.navB { padding-top: 0.75em; padding-bottom: 0.75em; margin-top: 0.1em; pad=
+ding-left: 1em; justify-content: center; overflow: hidden; color: black; ba=
+ckground-color: rgb(235, 235, 235); text-decoration: none; }
+
+.navB:hover { cursor: pointer; transition: all 0.1s ease-in-out 0s; color: =
+rgb(100, 140, 209); }
+
+@media screen and (max-width: 400px) {
+  .navTitle img { padding-top: 0.2em; width: 70vw; height: 15vw; }
+}
+
+@media screen and (max-width: 1100px) {
+  .navContainer { display: none; opacity: 0; }
+  .navTitle { padding-left: 4vw; padding-right: 15vw; }
+  .navBar { display: block; }
+}
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d1db5627-a409-4029-b420-f2969c271053@mhtml.blink
+
+@charset "utf-8";
+
+.Main > h1 { font-size: 4em; margin-bottom: 1em; }
+
+.Main { margin-top: 2em; padding-top: 3rem; padding-left: 4em; }
+
+.graph-container { display: flex; flex-direction: column; }
+
+.textContainer { width: 40vw; margin: 2em 2em 3em 2rem; padding-left: 2rem;=
+ box-shadow: darkgray 0.5rem 0.5rem 2rem; font-size: 1.2em; }
+
+.imageText { display: flex; flex-direction: column; }
+
+.image-description { font-size: 2rem; font-weight: 200; width: 100%; }
+
+img.graphImg { max-width: 1000px; margin-top: 2em; margin-bottom: 2em; }
+
+image-collage { display: flex; flex-flow: row wrap; width: 100vw; }
+
+.image-collage img { width: 33%; }
+
+@media screen and (max-width: 1200px) {
+  .graph-container { justify-content: center; flex-direction: column; }
+  .Main { padding-left: 0em; }
+  .textContainer { width: 80vw; }
+}
+
+@media screen and (max-width: 400px) {
+  .graphImg { width: 370px; align-self: center; }
+}
+------MultipartBoundary--BfLpwTW6vJfMtCpfSGoM2Y4wgCKnVAegZThAo2GN9Y------

@@ -1,0 +1,68 @@
+.slider-container {
+    width: 200px;
+}
+
+.wrapper {
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+
+input {
+    display: block;
+    font-size: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: 0.5em;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    width: 30vw;
+}
+
+.inputs {
+    margin-left: 5em;
+    width: 40vw;
+}
+
+.subtitle {
+    margin-top: 5vh;
+}
+
+.results {
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+    margin-right: 10vw;
+}
+
+.results h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.results h4 {
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .inputs {
+        margin: 0;
+    }
+
+    .results {
+        margin-right: 0px;
+        padding: 0;
+        margin-top: 5em;
+    }
+}
+

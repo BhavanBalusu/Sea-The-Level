@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.home{
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #446eeb;
+
+}
+
+.home-container {
+  color: White;
+  padding-top: 5em;
+  justify-content: center;
+  display: flex;
+  background-color: #446eeb;
+  align-items: center;
+  margin: none;
+  overflow: hidden;
+  height: 65vh;
+}
+
+img {
+  width: 65vw;
+}
+
+.arrow {
+  align-self: center;
+  margin-top: 1.5em;
+  color: rgb(80, 80, 80);
+  padding-bottom: 3em;
+  transform: translateY(-2em);
+  color: #9fc3fc;
+}
+
+.arrow button {
+  border: none;
+  color: #9fc3fc;
+  background-color: #446eeb;
+
+}
+
+.arrow button:hover {
+  cursor: pointer;
+}
+
+.home-info {
+  padding-top: 10em;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
+.home-info h2{
+  padding-top: 1em;
+  text-align: center;
+  font-size: 5em;
+  background-color:white;
+  padding-bottom: 0.5em;
+}
+
+.home-info p {
+  background-color:white;
+  text-align: left;
+  font-size: 2.3em;
+  padding: 2em;
+  padding-top: 0em;
+}
+
+.l {
+  background-color: transparent; 
+}
+
+.home-info button {
+  background-color: #446eeb;
+  border: none;
+  width: 15em;
+  height: 5em;
+  margin-top: 30px;
+  margin-bottom: 20em;
+  color: white;
+  border-radius: 3em;
+  transition: background-color 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+  font-size: 1em;
+}
+
+.home-info button:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.textBubble{
+  width: 66vw;
+  margin-right: 2em;
+  margin-left: 2em;
+  box-shadow: 0.75em 0.5em 3em  darkgray;
+  margin-bottom: 3em;
+}
+
+form {
+  background-color: transparent;
+}
+
+
+@media (max-width: 1300px) {
+  img{
+    width: 85vw;
+  }
+  svg {
+    width: 7em;
+    height: 7em;
+  }
+
+  .textBubble{
+    font-size: 0.6em;
+  }
+
+  .textBubble h2{
+    padding-top: 0.5em;
+  }
+
+  .home-container {
+    height: 76.5vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .textBubble{
+    width:80vw;
+  }
+}
